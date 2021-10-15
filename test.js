@@ -44,7 +44,7 @@ function playRound(playerSelection, computerSelection) {
 	} else if (playerSelection === "paper" && computerSelection === "scissors") {
 		userPts = 0;
 		compPts = 2;
-		result = `${playerSelection} and ${computerSelection} : You loose, paper cuts rock : ${userPts} points`;
+		result = `${playerSelection} and ${computerSelection} : You loose, Scissors cuts paper : ${userPts} points`;
 	} else if (
 		playerSelection === "scissors" &&
 		computerSelection === "scissors"
